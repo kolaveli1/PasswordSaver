@@ -1,0 +1,88 @@
+/* Generel styling */
+QWidget {
+    background-color: rgb(88, 99, 122);  /* Dark background */
+    color: #d8dee9;  /* Light text */
+    font-family: "Segoe UI", sans-serif;
+    font-size: 14px;
+}
+
+/* Knapper */
+QPushButton {
+    background-color: #434c5e;  /* Dark button background */
+    color: #d8dee9;  /* Light text */
+    border: 1px solid #4c566a;  /* Slightly lighter border */
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
+QPushButton:hover {
+    background-color: #4c566a;  /* Hover effect */
+}
+
+QPushButton:pressed {
+    background-color: #3b4252;  /* Pressed effect */
+}
+
+/* Listevisning */
+QListWidget {
+    background-color: #3b4252;  /* Darker background */
+    color: #d8dee9;  /* Light text */
+    border: 1px solid #4c566a;  /* Border */
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QListWidget::item {
+    padding: 10px;
+}
+
+QListWidget::item:selected {
+    background-color: #81a1c1;  /* Selected item background */
+    color: #2e3440;  /* Dark text for selected item */
+}
+
+/* Password tabel */
+QTableWidget {
+    background-color: #3b4252;  /* Darker background */
+    color: #d8dee9;  /* Light text */
+    border: 1px solid #4c566a;  /* Border */
+    border-radius: 5px;
+    padding: 5px;
+    gridline-color: #4c566a;  /* Grid line color */
+}
+
+QTableWidget::item {
+    background-color: transparent;  /* Transparent background */
+    color: #d8dee9;  /* Light text */
+    padding: 10px;  /* Padding */
+}
+
+QTableWidget QWidget {
+    background-color: transparent;  /* Transparent background */
+}
+
+QTableWidget QLabel {
+    background-color: transparent;  /* Transparent background */
+    color: #d8dee9;  /* Light text */
+}
+
+/* Header styling */
+QHeaderView::section {
+    background-color: #434c5e;  /* Header background */
+    color: #d8dee9;  /* Light text */
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    border: none;  /* Remove borders */
+}
+
+/* Ikon knapper */
+QPushButton {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 0.1);  /* Light hover effect */
+}
