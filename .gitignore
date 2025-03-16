@@ -1,19 +1,16 @@
-# 🔐 Følsomme filer
+
 secret.key
 passwords.db
 
-# 🛠️ PyInstaller / Build-filer
 dist/
 build/
 *.spec
 
-# 🐍 Python-specifikke filer
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# 📦 Virtuelle miljøer
 venv/
 .env/
 .venv/
